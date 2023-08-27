@@ -5,7 +5,7 @@ var downloadBtn = document.getElementById('download-btn')
 
 var image = new Image()
 image.crossOrigin = 'anonymous'
-image.src = 'certificado_sustenta+.jpg'
+image.src = 'certificado.jpg'
 image.onload = function () {
   drawImage()
 }

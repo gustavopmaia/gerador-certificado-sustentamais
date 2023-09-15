@@ -28,10 +28,8 @@ function drawImage() {
   ctx.fillText(now, 125, 280)
   ctx.font = '10px monotype arial'
   ctx.fillStyle = '#8f8c88'
-  ctx.fillText(`ID: ${crypto.randomUUID}`, 5, 345)
+  ctx.fillText(`ID: ${id}`, 5, 345)
 }
-
-console.log(crypto.randomUUID)
 
 nameInput.addEventListener('input', function () {
   drawImage()
